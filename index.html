@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Youtube & Blog LOGO -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+<!-- Black & White -->
+    <style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        .light-mode {
+          background-color: white;
+          color: black;
+        }
+      </style>
+
+    <title>Abrar Mostafiz Yealid</title>
+  </head>
+<body>
+    <div class="text-center mt-3">
+        <h1 style="color:blue">Abrar Mostafiz YEALID</h1>
+        <p1 style="font-size:25px"> <b>Contact:&nbsp;&nbsp;</b></p1>
+        <a href="https://www.facebook.com/Abrar.Mostafiz.Yealid/" target="_blank"><i class="fab fa-facebook" style="font-size:30px;color:#4267B2" ></i></a>
+        &nbsp;&nbsp;
+        <a href="https://twitter.com/Yealid" target="_blank"><i class="fab fa-twitter" style="font-size:30px;color:#1DA1F2" ></i></a>
+        &nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/yealid/" target="_blank"><i class="fab fa-linkedin" style="font-size:30px;color:#0077b5" ></i></a>
+
+
+        <br><br><br><br>
+
+    <h2 id="DarkModetext">Dark Mode is OFF</h2>
+    <button onclick="lightMode()" style="font-size:16px"><b>LightMode&nbsp;&nbsp;</b><i class="fas fa-sun" style="font-size:16px" ></i></button>
+    <button onclick="darkMode()" style="font-size:16px"><b>Darkmode&nbsp;&nbsp;</b><i class="fas fa-moon" style="font-size:16px" ></i></button>
+
+<script>
+function darkMode() {
+var element = document.body;
+var content = document.getElementById("DarkModetext");
+element.className = "dark-mode";
+content.innerText = "Dark Mode is ON";
+}
+function lightMode() {
+var element = document.body;
+var content = document.getElementById("DarkModetext");
+element.className = "light-mode";
+content.innerText = "Dark Mode is OFF";
+}
+</script>
+</div>
+</body>
+</html>
